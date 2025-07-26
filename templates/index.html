@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comisión Fácil - Gana Dinero con tu Tarjeta | Bolivia</title>
+    <meta name="description" content="Gana dinero extra en Bolivia ayudando con pagos online. Sin vender, sin inversión, solo necesitas tu tarjeta de débito o crédito.">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-brand">
+                    <i class="fas fa-credit-card brand-icon"></i>
+                    <span class="brand-name">Comisión Fácil</span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#inicio" class="nav-link">Inicio</a></li>
+                    <li><a href="#como-funciona" class="nav-link">¿Cómo Funciona?</a></li>
+                    <li><a href="#ventajas" class="nav-link">Ventajas</a></li>
+                    <li><a href="#testimonios" class="nav-link">Testimonios</a></li>
+                    <li><a href="#contacto" class="nav-link">Contacto</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <div class="badge">
+                        <i class="fas fa-map-marker-alt"></i>
+                        Disponible en toda Bolivia
+                    </div>
+                    <h1 class="hero-title">
+                        Gana Dinero Extra con tu 
+                        <span class="highlight">Tarjeta de Crédito o Débito</span>
+                    </h1>
+                    <p class="hero-subtitle">
+                        Ayuda a otros con sus pagos online y recibe hasta <strong>30% de comisión</strong> por cada operación. 
+                        Sin vender nada, sin inversión inicial, completamente digital.
+                    </p>
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <span class="stat-number">500+</span>
+                            <span class="stat-label">Clientes Activos</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">20%</span>
+                            <span class="stat-label">Comisión Promedio</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">24/7</span>
+                            <span class="stat-label">Soporte Disponible</span>
+                        </div>
+                    </div>
+                    <div class="hero-cta">
+                        <a href="https://wa.me/+59169790859?text=Hola, quiero ganar comisión con Comisión Fácil" 
+                           class="btn-primary" target="_blank">
+                            <i class="fab fa-whatsapp"></i>
+                            Quiero Ganar Comisión
+                        </a>
+                        <a href="#como-funciona" class="btn-secondary">
+                            <i class="fas fa-play-circle"></i>
+                            Ver cómo funciona
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="card-mockup">
+                        <div class="credit-card">
+                            <div class="card-chip"></div>
+                            <div class="card-number">•••• •••• •••• 1234</div>
+                            <div class="card-holder">TU NOMBRE</div>
+                            <div class="card-logo">VISA</div>
+                        </div>
+                        <div class="payment-notification">
+                            <i class="fas fa-check-circle"></i>
+                            <span>¡Pago exitoso! +Bs. 120 ganados</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ¿Qué es Comisión Fácil? -->
+    <section id="que-es" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">¿Qué es Comisión Fácil?</h2>
+                <p class="section-subtitle">
+                    Una plataforma innovadora que te permite generar ingresos adicionales de forma segura y sencilla
+                </p>
+            </div>
+            <div class="content-grid">
+                <div class="content-text">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-handshake"></i>
+                        </div>
+                        <h3>Modelo Simple y Transparente</h3>
+                        <p>
+                            Nosotros tenemos clientes que necesitan realizar pagos online, pero no cuentan con tarjeta 
+                            de crédito o débito. Tú tienes una tarjeta y puedes ayudarles realizando estos pagos.
+                        </p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-money-bill-wave"></i>
+                        </div>
+                        <h3>Ganancias Inmediatas</h3>
+                        <p>
+                            Por cada pago que realizas, recibes una comisión de 15% hasta el 30% del monto de la operación. 
+                            El dinero se transfiere inmediatamente después de completar el pago.
+                        </p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h3>100% Seguro y Confiable</h3>
+                        <p>
+                            Trabajamos únicamente con pagos legítimos y verificados. Más de 500 personas en Bolivia 
+                            ya confían en nuestro sistema y generan ingresos adicionales cada mes.
+                        </p>
+                    </div>
+                </div>
+                <div class="content-visual">
+                    <div class="process-visual">
+                        <div class="process-step">
+                            <div class="step-number">1</div>
+                            <div class="step-content">
+                                <h4>Cliente solicita pago</h4>
+                                <p>Un cliente necesita realizar un pago online</p>
+                            </div>
+                        </div>
+                        <div class="process-arrow">→</div>
+                        <div class="process-step">
+                            <div class="step-number">2</div>
+                            <div class="step-content">
+                                <h4>Tú realizas el pago</h4>
+                                <p>Usas tu tarjeta para completar la transacción</p>
+                            </div>
+                        </div>
+                        <div class="process-arrow">→</div>
+                        <div class="process-step">
+                            <div class="step-number">3</div>
+                            <div class="step-content">
+                                <h4>Recibes tu comisión</h4>
+                                <p>Te pagamos el 30% + reembolso del monto</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cómo Funciona -->
+    <section id="como-funciona" class="section bg-light">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">¿Cómo Funciona?</h2>
+                <p class="section-subtitle">Es muy simple, solo necesitas seguir 3 pasos básicos</p>
+            </div>
+            <div class="steps-container">
+                <div class="step-card">
+                    <div class="step-icon">
+                        <i class="fas fa-credit-card"></i>
+                    </div>
+                    <div class="step-number">01</div>
+                    <h3>Tienes una Tarjeta</h3>
+                    <p>Solo necesitas tener una tarjeta de débito o crédito válida y activa. No importa el banco o el límite de crédito.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <div class="step-number">02</div>
+                    <h3>Recibe las Operaciones</h3>
+                    <p>Te enviamos por WhatsApp los detalles del pago: monto, datos del destinatario y página donde pagar.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-icon">
+                        <i class="fas fa-coins"></i>
+                    </div>
+                    <div class="step-number">03</div>
+                    <h3>Gana tu Comisión</h3>
+                    <p>Realizas el pago, nos envías el comprobante y te transferimos el monto + tu comisión del 30%.</p>
+                </div>
+            </div>
+            <div class="example-box">
+                <h4><i class="fas fa-calculator"></i> Ejemplo Práctico:</h4>
+                <p>Cliente necesita pagar Bs. 350 → Tú pagas Bs. 350 → Recibes Bs. 450 (Bs. 350 + Bs. 100 de comisión)</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ventajas -->
+    <section id="ventajas" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">¿Por Qué Elegir Comisión Fácil?</h2>
+                <p class="section-subtitle">Todas las ventajas que necesitas para generar ingresos extra</p>
+            </div>
+            <div class="advantages-grid">
+                <div class="advantage-card">
+                    <div class="advantage-icon">
+                        <i class="fas fa-dollar-sign"></i>
+                    </div>
+                    <h3>Sin Inversión Inicial</h3>
+                    <p>No necesitas invertir dinero. Solo usas tu tarjeta temporalmente y recuperas todo el monto + comisión.</p>
+                </div>
+                <div class="advantage-card">
+                    <div class="advantage-icon">
+                        <i class="fas fa-store-slash"></i>
+                    </div>
+                    <h3>Sin Vender Nada</h3>
+                    <p>No necesitas vender productos ni convencer a nadie. Solo realizas pagos siguiendo instrucciones simples.</p>
+                </div>
+                <div class="advantage-card">
+                    <div class="advantage-icon">
+                        <i class="fas fa-laptop"></i>
+                    </div>
+                    <h3>100% Digital</h3>
+                    <p>Todo se maneja por WhatsApp y transferencias bancarias. Trabajas desde cualquier lugar con internet.</p>
+                </div>
+                <div class="advantage-card">
+                    <div class="advantage-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>Horarios Flexibles</h3>
+                    <p>Tú decides cuándo y cuántos pagos realizar. No hay horarios fijos ni metas obligatorias.</p>
+                </div>
+                <div class="advantage-card">
+                    <div class="advantage-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Tú Eliges Cuánto Ganar</h3>
+                    <p>Mientras más pagos realices, más comisiones generas. Algunos ganan Bs. 500-2000 mensuales extra.</p>
+                </div>
+                <div class="advantage-card">
+                    <div class="advantage-icon">
+                        <i class="fas fa-shield-check"></i>
+                    </div>
+                    <h3>Sin Riesgos</h3>
+                    <p>Todos los pagos son verificados previamente. Solo trabajamos con empresas y servicios legítimos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonios -->
+    <section id="testimonios" class="section bg-light">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Lo Que Dicen Nuestros Colaboradores</h2>
+                <p class="section-subtitle">Más de 500 personas en Bolivia ya generan ingresos con nosotros</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">
+                        "Llevo 6 meses trabajando con Comisión Fácil y he ganado más de Bs. 8,000 extra. 
+                        Es muy fácil y los pagos siempre llegan puntual."
+                    </p>
+                    <div class="testimonial-author">
+                        <strong>María Rodriguez</strong>
+                        <span>La Paz - 6 meses colaborando</span>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">
+                        "Al principio tenía dudas, pero después del primer pago me quedé tranquilo. 
+                        Ahora es mi ingreso extra principal, genero Bs. 1,500 mensuales."
+                    </p>
+                    <div class="testimonial-author">
+                        <strong>Carlos Mendoza</strong>
+                        <span>Santa Cruz - 1 año colaborando</span>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">
+                        "Me encanta la flexibilidad. Trabajo cuando puedo y siempre hay operaciones disponibles. 
+                        El soporte por WhatsApp es excelente."
+                    </p>
+                    <div class="testimonial-author">
+                        <strong>Ana Vargas</strong>
+                        <span>Cochabamba - 4 meses colaborando</span>
+                    </div>
+                </div>
+            </div>
+            <div class="trust-indicators">
+                <div class="trust-item">
+                    <i class="fas fa-users"></i>
+                    <span>500+ Colaboradores Activos</span>
+                </div>
+                <div class="trust-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Presente en toda Bolivia</span>
+                </div>
+                <div class="trust-item">
+                    <i class="fas fa-clock"></i>
+                    <span>Operando desde 2023</span>
+                </div>
+                <div class="trust-item">
+                    <i class="fas fa-shield-alt"></i>
+                    <span>100% Confiable y Seguro</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Final -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>¿Listo para Generar Ingresos Extra?</h2>
+                <p>Únete a más de 500 personas que ya ganan dinero con su tarjeta en Bolivia</p>
+                <a href="https://wa.me/+59169790859?text=Hola, quiero información sobre Comisión Fácil y empezar a ganar dinero" 
+                   class="btn-cta" target="_blank">
+                    <i class="fab fa-whatsapp"></i>
+                    Empezar Ahora - WhatsApp
+                </a>
+                <div class="cta-benefits">
+                    <span><i class="fas fa-check"></i> Sin inversión inicial</span>
+                    <span><i class="fas fa-check"></i> Pagos inmediatos</span>
+                    <span><i class="fas fa-check"></i> Soporte 24/7</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contacto" class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-brand">
+                        <i class="fas fa-credit-card"></i>
+                        <span>Comisión Fácil</span>
+                    </div>
+                    <p>La forma más fácil de generar ingresos extra con tu tarjeta de crédito o débito en Bolivia.</p>
+                    <div class="social-links">
+                        <a href="https://wa.me/+59169790859" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Contacto</h4>
+                    <div class="contact-info">
+                        <p><i class="fas fa-phone"></i> +591 69790859</p>
+                        <p><i class="fas fa-envelope"></i> info@comisionfacil.com</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Bolivia - Cobertura Nacional</p>
+                        <p><i class="fas fa-clock"></i> Lun - Dom: 8:00 AM - 10:00 PM</p>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Información</h4>
+                    <ul class="footer-links">
+                        <li><a href="#como-funciona">¿Cómo funciona?</a></li>
+                        <li><a href="#ventajas">Ventajas</a></li>
+                        <li><a href="#testimonios">Testimonios</a></li>
+                        <li><a href="#" onclick="alert('Próximamente disponible')">Preguntas Frecuentes</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Legal</h4>
+                    <ul class="footer-links">
+                        <li><a href="#" onclick="alert('Próximamente disponible')">Términos y Condiciones</a></li>
+                        <li><a href="#" onclick="alert('Próximamente disponible')">Política de Privacidad</a></li>
+                        <li><a href="#" onclick="alert('Próximamente disponible')">Aviso Legal</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Comisión Fácil - Bolivia. Todos los derechos reservados.</p>
+                <p class="disclaimer">
+                    <i class="fas fa-info-circle"></i>
+                    Servicio disponible únicamente para personas con tarjetas válidas en Bolivia. 
+                    Las ganancias pueden variar según la disponibilidad de operaciones.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
